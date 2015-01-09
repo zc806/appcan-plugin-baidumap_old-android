@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+     <plugin
+        className="org.zywx.wbpalmstar.plugin.uexbaidumap.EUExBaiduMap"
+        uexName="uexBaiduMap" >
+       <method name="open" />
+       <method name="clean"/>
+        <method name="addMark" />
+        <method name="clearMarks" />
+        <method name="getCurrentLocation" />
+        <method name="hide" />
+        <method name="show" />
+    	<method name="setCenter" />
+        <method name="setZoomLevel" />
+        <method name="setTrackBeginImage" />
+        <method name="setTrackEndImage" />
+        <method name="setTrackColor" />
+        <method name="addOneTrack" />
+        <method name="clearAllTrack" />
+        <method name="setType" />
+        <method name="zoomIn" />
+        <method name="zoomOut" />
+        <method name="zoomToSpan" />
+        <method name="showUserLocation" />
+        <method name="hideUserLocation" />
+        <method name="addLineOverLayer" />
+        <method name="addCircleOverLayer" />
+        <method name="addPolygonOverLayer" />
+        <method name="clearOverLayers" />
+        <method name="suggestionSearch" />
+        <method name="poiSearchInCity" />
+        <method name="poiSearchNearBy" />
+        <method name="poiMultiSearchNearBy" />
+        <method name="poiSearchInBounds" />
+        <method name="poiMultiSearchInBounds" />
+        <method name="geocode" />
+        <method name="reverseGeocode" />
+        <method name="busLineSearch" />
+        <method name="setPoiPageCapacity" />
+        <method name="showRoutePlan" />
+        <method name="clearRoutePlan" />
+        <method name="showBubbleView1" />
+        <method name="showBubbleView2" />
+        <method name="showBubbleView3" />
+        <method name="addAreaMark"/>
+        <method name="updateAreaMark"/>
+        <method name="clearAreaMarks"/>
+		<method name="fastGetLocation"/>
+        <method name="addMarkNewStyle" />
+        <method name="showBubbleView4" />
+    </plugin>
+</uexplugins>

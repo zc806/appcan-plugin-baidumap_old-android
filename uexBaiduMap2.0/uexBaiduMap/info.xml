@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexBaiduMap" version="3.0.3" build="3">
+		<info>3：修复地图关闭崩溃问题</info>
+        <build>2： 1.修改系统自动调用clean函数时，删除地图时不彻底，导致，多次重复打开地图时，地图出现异常的问题。</build>
+        <build>1: 1.修改打开两次崩溃的问题
+                  2.修改clean方法调用崩溃的问题</build>
+        <build>0：1.百度地图插件</build>
+    </plugin>
+</uexplugins>

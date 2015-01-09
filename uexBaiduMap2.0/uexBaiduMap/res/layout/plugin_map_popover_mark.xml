@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/plugin_map_popover_mark_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/plugin_map_mark_default_bg"
+    android:maxWidth="120dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="48dip"
+        android:orientation="vertical"
+        android:padding="4dip" >
+
+        <TextView
+            android:id="@+id/plugin_map_popover_mark_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxWidth="100dip"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <RatingBar
+            android:id="@+id/plugin_map_popover_mark_rate"
+            style="@style/foodRatingBarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="15dip"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:rating="1" />
+    </LinearLayout>
+
+</LinearLayout>

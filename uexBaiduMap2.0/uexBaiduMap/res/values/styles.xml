@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="foodRatingBarTitle" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/plugin_mao_rating_bar_title</item>
+        <item name="android:minHeight">19dip</item>
+        <item name="android:maxHeight">19dip</item>
+    </style>
+
+   
+
+</resources>
